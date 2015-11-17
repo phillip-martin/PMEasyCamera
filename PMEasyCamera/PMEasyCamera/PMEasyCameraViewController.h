@@ -1,13 +1,17 @@
-//
-//  PMEasyCameraViewController.h
-//  PMEasyCamera
-//
-//  Created by Phillip M Martin on 11/12/15.
-//  Copyright © 2015 Phil. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <ImageIO/ImageIO.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CoreMedia/CoreMedia.h>
+#import <CoreVideo/CoreVideo.h>
 
 @interface PMEasyCameraViewController : UIViewController
+
+- (void)capturePhoto;
+- (void)cancelImagePost;
+- (void)switchCameraTapped;
+- (void)captureVideo;
+- (void)post;
+- (void)imagePicker;
 
 @end

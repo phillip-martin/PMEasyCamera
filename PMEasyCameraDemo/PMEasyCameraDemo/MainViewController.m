@@ -26,7 +26,8 @@
 
 - (void)mainViewCameraButtonClicked {
     PMEasyCameraViewController *easyCameraViewController = [[PMEasyCameraViewController alloc] init];
-    [self presentViewController:easyCameraViewController animated:YES completion:NULL];
+    [self.navigationController pushViewController:easyCameraViewController animated:YES];
+    //[self pushViewController:easyCameraViewController animated:YES completion:NULL];
 }
 
 @end

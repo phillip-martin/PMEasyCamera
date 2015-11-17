@@ -13,6 +13,10 @@
 		C5F072811BF54B65004ECAF2 /* PMEasyCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F072761BF549E4004ECAF2 /* PMEasyCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5F072891BF54DE8004ECAF2 /* PMEasyCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F072871BF54DE8004ECAF2 /* PMEasyCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5F0728A1BF54DE8004ECAF2 /* PMEasyCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F072881BF54DE8004ECAF2 /* PMEasyCameraViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C5F072E61BFBB532004ECAF2 /* PMSquareCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F072E41BFBB532004ECAF2 /* PMSquareCameraView.h */; settings = {ASSET_TAGS = (); }; };
+		C5F072E71BFBB532004ECAF2 /* PMSquareCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F072E51BFBB532004ECAF2 /* PMSquareCameraView.m */; settings = {ASSET_TAGS = (); }; };
+		C5F072EE1BFBC473004ECAF2 /* PMCameraModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F072EC1BFBC473004ECAF2 /* PMCameraModel.h */; settings = {ASSET_TAGS = (); }; };
+		C5F072EF1BFBC473004ECAF2 /* PMCameraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F072ED1BFBC473004ECAF2 /* PMCameraModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +39,10 @@
 		C5F072761BF549E4004ECAF2 /* PMEasyCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMEasyCamera.h; sourceTree = SOURCE_ROOT; };
 		C5F072871BF54DE8004ECAF2 /* PMEasyCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMEasyCameraViewController.h; sourceTree = SOURCE_ROOT; };
 		C5F072881BF54DE8004ECAF2 /* PMEasyCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMEasyCameraViewController.m; sourceTree = SOURCE_ROOT; };
+		C5F072E41BFBB532004ECAF2 /* PMSquareCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSquareCameraView.h; sourceTree = SOURCE_ROOT; };
+		C5F072E51BFBB532004ECAF2 /* PMSquareCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSquareCameraView.m; sourceTree = SOURCE_ROOT; };
+		C5F072EC1BFBC473004ECAF2 /* PMCameraModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCameraModel.h; sourceTree = SOURCE_ROOT; };
+		C5F072ED1BFBC473004ECAF2 /* PMCameraModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMCameraModel.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 				C5F072761BF549E4004ECAF2 /* PMEasyCamera.h */,
 				C5F072871BF54DE8004ECAF2 /* PMEasyCameraViewController.h */,
 				C5F072881BF54DE8004ECAF2 /* PMEasyCameraViewController.m */,
+				C5F072E41BFBB532004ECAF2 /* PMSquareCameraView.h */,
+				C5F072E51BFBB532004ECAF2 /* PMSquareCameraView.m */,
+				C5F072EC1BFBC473004ECAF2 /* PMCameraModel.h */,
+				C5F072ED1BFBC473004ECAF2 /* PMCameraModel.m */,
 			);
 			path = PMEasyCamera;
 			sourceTree = "<group>";
@@ -85,8 +97,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F072EE1BFBC473004ECAF2 /* PMCameraModel.h in Headers */,
 				C5F072811BF54B65004ECAF2 /* PMEasyCamera.h in Headers */,
 				C5F072891BF54DE8004ECAF2 /* PMEasyCameraViewController.h in Headers */,
+				C5F072E61BFBB532004ECAF2 /* PMSquareCameraView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F0728A1BF54DE8004ECAF2 /* PMEasyCameraViewController.m in Sources */,
+				C5F072EF1BFBC473004ECAF2 /* PMCameraModel.m in Sources */,
+				C5F072E71BFBB532004ECAF2 /* PMSquareCameraView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
